@@ -3,38 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Burger Bar Responsive</title>
-    <!-- Fontawesome cdn link for burger icon -->
-    <script
-      src="https://kit.fontawesome.com/6de6aa5275.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <title>Mariam Akhvlediani Final Project</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- header -->
-    <header class="header-wraper">
-      <div class="container">
-        <nav class="header__nav nav-bar">
-          <div class="toggle-menu">
-            <div class="line line1"></div>
-            <div class="line line2"></div>
-            <div class="line line3"></div>
-          </div>
+    <header class="container">
+      <div class="header-img-content">
+        <a href="index.html"
+          ><img src="./images/ logo green.svg" alt="logo" class="header-logo"
+        /></a>
+      </div>
+      <div class="header-links">
+        <nav>
           <ul class="nav-list">
-            <li class="nav-list-item"><a href="" class="nav-link">Home</a></li>
-            <li class="nav-list-item"><a href="" class="nav-link">About</a></li>
-            <li class="nav-list-item">
-              <a href="" class="nav-link">Contact</a>
+            <li class="list-item">
+              <a href="index.html" class="active">Home</a>
             </li>
+            <li class="list-item"><a href="#">Projects</a></li>
+            <li class="list-item"><a href="#">Localities</a></li>
+            <li class="list-item"><a href="#">Developers</a></li>
           </ul>
         </nav>
       </div>
     </header>
+    <main class="container">
+      <div class="hero-text">
+        <h1>We Help You Building The Dreams & Bring More Than You Expect</h1>
 
-    <!-- Js Link -->
+        <form action="#">
+          <div class="search-form">
+            <input type="text" placeholder="Search Properties" />
+            <img
+              src="./images/search icon.svg"
+              class="search-icon"
+              alt="search icon"
+            />
+          </div>
+        </form>
+      </div>
+      <img src="./images/main photo.png" alt="main photo" class="main-photo" />
+    </main>
 
-    <script src="js/script.js"></script>
+    <secion class="slider-wraper container">
+      <div class="slide-1">
+        <img
+          src="./images/slider background.png"
+          alt="background photo"
+          class="background-photo"
+        />
+        <div class="slider-content">
+          <img src="./images/slider-1 img.png" alt="lodha" class="lodha" />
+          <h4>Lodha Group</h4>
+          <p>35+ years of experience</p>
+          <p>270+ Project Done</p>
+          <button class="check-profile">Check profile</button>
+        </div>
+      </div>
+    </secion>
   </body>
 </html>
